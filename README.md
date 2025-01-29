@@ -7,8 +7,8 @@
 格内茨宇宙是一个以格内茨共和国为主的**虚构架空世界观**。
 ### 导读
 条目：
-- [格内茨共和国](GerneltsUniverseWiki\简体中文\条目\国家\格内茨共和国.md)
-- [神权娘之歌(又名大饼进行曲)](GerneltsUniverseWiki\简体中文\条目\歌曲\神权娘之歌(又名大饼进行曲).md)  
-- [神权女神像](GerneltsUniverseWiki/简体中文/条目/地标/神权女神像.md)  
+- [格内茨共和国](/GerneltsUniverseWiki/简体中文/条目/国家/格内茨共和国.md)
+- [神权娘之歌(又名大饼进行曲)](/GerneltsUniverseWiki/简体中文/条目/歌曲/神权娘之歌(又名大饼进行曲).md)  
+- [神权女神像](/GerneltsUniverseWiki/简体中文/条目/地标/神权女神像.md)  
 
 抱歉，我们目前只有这三个条目...
