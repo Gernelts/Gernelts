@@ -5,10 +5,10 @@
 - 格内茨宇宙使用 CC BY 4.0 许可证。你可以**自由共享，修改，和商用**该作品，但是**必须署名原作者，以及标注原出处**。[点击这里查看详情](/LICENSE)。  
 
 Mkdocs：
-- 我们在Github Page上的静态页面使用了Mkdocs，它使用了 BSD-2-Clause 许可证。[点击这里查看](/LICENSE) \(下翻，在中间\) Mkdocs的许可证原文。
+- 我们在Github Page上的静态页面使用了**MkDocs**，它使用了 BSD-2-Clause 许可证。[点击这里查看](/LICENSE) \(下翻，在中间\) Mkdocs的许可证原文。
 
-Mkdocs-i18n：
-- 我们同时使用了Mkdocs的i18n插件。它使用MIT 许可证。[点击这里查看](/LICENSE) \(在底部\)。
+Material for MkDocs：
+- 我们使用了Material for MkDocs主题。它使用了 MIT 许可证。
 
 </br>
 
