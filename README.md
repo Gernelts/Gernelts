@@ -8,7 +8,7 @@ Mkdocs：
 - 我们在Github Page上的静态页面使用了**MkDocs**，它使用了 BSD-2-Clause 许可证。[点击这里查看](/LICENSE) \(下翻，在中间\) Mkdocs的许可证原文。
 
 Material for MkDocs：
-- 我们使用了Material for MkDocs主题。它使用了 MIT 许可证。
+- 我们使用了Material for MkDocs主题。它使用了 MIT 许可证。[点击这里查看详情](/LICENSE) \(下翻，在底部\) 。
 
 </br>
 
