@@ -20,7 +20,7 @@ Material for MkDocs：
 - [格内茨共和国](/GerneltsUniverseWiki/简体中文/条目/国家/格内茨共和国.md)
 - [神权娘之歌(又名大饼进行曲)](/GerneltsUniverseWiki/简体中文/条目/歌曲/神权娘之歌(又名大饼进行曲).md)  
 - [神权女神像](/GerneltsUniverseWiki/简体中文/条目/地标/神权女神像.md)  
-- [东欧危机](/GerneltsWiki/简体中文/条目/历史/东欧危机.md)
+- [东欧危机](/GerneltsWiki/简体中文/条目/历史/东欧危机.md
 
 抱歉，我们目前只有这四个条目...
 ### 格内茨宇宙贡献者
