@@ -11,7 +11,7 @@ Material for MkDocs：
 - 我们使用了Material for MkDocs主题。它使用了 MIT 许可证。[点击这里查看详情](/LICENSE) \(下翻\) 。
 
 mkdocs-deploy-gh-pages：
-- 我们自动构建Github Pages使用了这个工具。它使用了 Apache 2.0 许可证。[点击这里查看详情](/LICENSE)\ (下翻，在底部\) 。
+- 我们自动构建Github Pages使用了这个工具。它使用了 Apache 2.0 许可证。[点击这里查看详情](/LICENSE) \(下翻，在底部\) 。
 
 </br>
 
