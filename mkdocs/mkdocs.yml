@@ -1,0 +1,13 @@
+site_name: Gernelts Wiki
+
+theme:
+  name: 'material'
+  features:
+    - search.highlight
+    - search.suggest
+    - search.share
+
+plugins:
+  - search
+
+docs_dir: ../GerneltsWiki
