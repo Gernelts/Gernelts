@@ -24,13 +24,9 @@ jobs:
           pip install mkdocs
           pip install mkdocs-material
 
-      - name: Build MkDocs site
-        run: mkdocs build -f mkdocs/mkdocs.yml
-
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: /home/runner/work/Gernelts/Gernelts/mkdocs/site/
-          keep_files: true
-      
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONFIG_FILE: mkdocs/mkdocs.yml
+  
