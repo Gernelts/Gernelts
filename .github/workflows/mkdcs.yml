@@ -26,3 +26,6 @@ jobs:
 
       - name: Build MkDocs site
         run: mkdocs build -f mkdocs/mkdocs.yml
+
+      - name: Copy built site to custom directory
+        run: cp -r /home/runner/work/Gernelts/Gernelts/mkdocs/site/* /root
