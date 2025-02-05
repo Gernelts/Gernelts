@@ -28,4 +28,11 @@ jobs:
         run: mkdocs build -f mkdocs/mkdocs.yml
 
       - name: Copy built site to custom directory
-        run: cp -r /home/runner/work/Gernelts/Gernelts/mkdocs/site/* /root
+        run: cp -r /home/runner/work/Gernelts/Gernelts/mkdocs/site/* /pages
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: /pages
+      
