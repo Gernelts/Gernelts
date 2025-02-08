@@ -14,18 +14,10 @@ jobs:
       uses: actions/checkout@v3
       with:
         persist-credentials: false
-
-    - name: Set up Git
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-
-    - name: Add remote for fork
-      run: |
-        git remote add fork https://github.com/gernelts/gernelts.github.io.git
-
-    - name: Push changes to fork
-      run: |
-        git push fork main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
+    - name: Sync fork
+      uses: tgymnich/fork-sync@v1.8
+      with:
+        owner: Gernelts
+        base: main
+        head: main
