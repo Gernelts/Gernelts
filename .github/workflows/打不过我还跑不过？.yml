@@ -20,6 +20,10 @@ jobs:
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
 
+    - name: Add remote for fork
+      run: |
+        git remote add fork https://github.com/gernelts/gernelts.github.io.git
+
     - name: Push changes to fork
       run: |
         git push fork main
