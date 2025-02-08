@@ -1,0 +1,27 @@
+name: Sync with Fork
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout main branch
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+
+    - name: Set up Git
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Push changes to fork
+      run: |
+        git push fork main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
