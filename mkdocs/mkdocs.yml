@@ -1,4 +1,5 @@
 site_name: Gernelts Wiki
+site_url: gernelts.wiki
 
 theme:
   name: 'material'
