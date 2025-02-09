@@ -24,17 +24,5 @@ jobs:
           pip install mkdocs
           pip install mkdocs-material
 
-      - name: Deploy to GitHub Pages
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CONFIG_FILE: mkdocs/mkdocs.yml
-
-      - name: Create CNAME file
-        run: echo "gernelts.wiki" > $GITHUB_WORKSPACE/CNAME
-
-      - name: Upload CNAME to artifacts
-        uses: actions/upload-artifact@v4
-        with:
-         name: CNAME
-         path: CNAME
+      - name: Build Mkdocs
+        run: mkdocs build -f mkdocs/mkdocs.yml
