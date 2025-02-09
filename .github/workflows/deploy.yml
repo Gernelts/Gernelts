@@ -34,7 +34,7 @@ jobs:
         run: echo "gernelts.wiki" > $GITHUB_WORKSPACE/CNAME
 
       - name: Upload CNAME to artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
          name: CNAME
          path: CNAME

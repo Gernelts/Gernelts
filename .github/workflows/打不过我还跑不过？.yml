@@ -21,3 +21,6 @@ jobs:
         owner: Gernelts
         base: main
         head: main
+        repo: gernelts.github.io
+        retries: 5
+        retry_after: 5
