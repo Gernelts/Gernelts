@@ -26,3 +26,8 @@ jobs:
 
       - name: Build Mkdocs
         run: mkdocs build -f mkdocs/mkdocs.yml
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: /home/runner/work/Gernelts/Gernelts/mkdocs/site
