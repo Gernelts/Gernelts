@@ -19,7 +19,7 @@ jobs:
       uses: tgymnich/fork-sync@v1.8
       with:
         owner: Gernelts
-        base: main
+        base: master
         head: main
         repo: gernelts.github.io
         retries: 1
