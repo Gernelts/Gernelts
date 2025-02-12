@@ -11,6 +11,12 @@
 
 <br>
 
+### 加入格内茨官方社群
+无论你是创作者，还是普通的读者，我们都欢迎你的加入！
+- [官方Discord（推荐）](https://discord.gg/XCWmvAJ5)
+- [官方KOOK](https://kook.vip/)
+- [Github Discussion](https://github.com/Gernelts/Gernelts/discussions)
+
 ### 格内茨宇宙贡献者
 鉴于格内茨宇宙是一个大家共同参与编纂的社区项目，共享，修改，商用要求的署名将以“格内茨宇宙创作组”为署名。具体制作组成员将在此处展出。[请点击这里](/Contributors.md)。  
 Q：我不是制作组的成员，但仍然通过提交issue，提出评论，意见等方式参与了格内茨宇宙的创作，怎么办？  
